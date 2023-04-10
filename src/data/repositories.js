@@ -35,12 +35,34 @@ export default [
 	{
 		id: 'django.django',
 		fullName: 'django/django',
+		description: 'One-Click to deploy your own ChatGPT web UI',
+		language: 'Typescript',
+		forksCount: 1436,
+		stargazersCount: 4189,
+		ratingAverage: 73,
+		reviewCount: 5,
+		ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/16968934?v=4'
+	},
+	{
+		id: 'chatgpt.nextjs',
+		fullName: 'ChatGPT-Next-Web',
 		description: 'The web framework for perfectionists whit deadlines',
 		language: 'Python',
 		forksCount: 21015,
 		stargazersCount: 48496,
-		ratingAverage: 73,
-		reviewCount: 5,
+		ratingAverage: 0,
+		reviewCount: 0,
 		ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/27804?s=200&v=4'
+	},
+	{
+		id: 'openai.openai',
+		fullName: 'openai-python',
+		description: 'The OpenAI Python library provides convenient access to the OpenAI API from applications written in the Python language',
+		language: 'Python',
+		forksCount: 989,
+		stargazersCount: 7102,
+		ratingAverage: 0,
+		reviewCount: 0,
+		ownerAvatarUrl: 'https://avatars.githubusercontent.com/u/14957082?s=200&v=4'
 	}
 ]
