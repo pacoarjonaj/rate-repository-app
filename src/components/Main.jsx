@@ -3,6 +3,7 @@ import { Text, View } from 'react-native'
 import RepositoryList from './RepositoryList'
 import AppBar from './AppBar'
 import { Route, Routes } from 'react-router-native'
+import LoginPage from '../pages/Login'
 
 
 const Main = () => {
@@ -17,7 +18,7 @@ const Main = () => {
 				/>
 				<Route 
 					path='/signin' 
-					element={<Text>Working on it</Text>}
+					element={<LoginPage />}
 				/>
 			</Routes>
 		</View>
